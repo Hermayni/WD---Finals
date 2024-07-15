@@ -1,0 +1,304 @@
+@font-face {
+    font-family: 'newspaper';
+    src: url('../fonts/NewspaperPersonalUseSemiExpandedRegular-7B0GB.ttf');
+}
+@font-face {
+    font-family: 'ananda';
+    src: url('../fonts/AnandaBlackPersonalUseRegular-rg9Rx.ttf');
+}
+@font-face {
+    font-family: 'bonello';
+    src: url('../fonts/Bonello-Regular.otf');
+}
+@font-face {
+    font-family: 'genty';
+    src: url('../fonts/GentyDemo-Regular.ttf');
+}
+@font-face {
+    font-family: 'subway-scribble';
+    src: url('../fonts/SubwayScribble-e8Z3.ttf');
+}
+@font-face {
+    font-family: 'scribble-lines';
+    src: url('../fonts/ScribbleLines-evwe.ttf');
+}
+@font-face {
+    font-family: 'frogie';
+    src: url('../fonts/Frogie-Regular.ttf');
+}
+@font-face {
+    font-family: 'grestal';
+    src: url('../fonts/GrestalScriptDemoRegular-dBYX.ttf');
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+}
+
+nav {
+    padding: 20px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-style: solid;
+    border-color: #4c4c4c;
+    background-color: #ffacb1;
+    padding: 13px 60px;
+    position: relative;
+    width: 120%;
+    right: 10%;
+    gap: 1rem;
+    background-position: center;
+    margin-bottom: 5rem;
+}
+
+nav ul li {
+    display: inline-block;
+    list-style: none;
+    margin: 10px 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #4c4c4c;
+    font-family: 'newspaper';
+    font-size: 18px;
+    position: relative;
+}
+
+nav ul li a:hover {
+    color: #f12c88; 
+}
+
+:root{
+    --purple:#2F192E;
+    --purple-light:#30192d;
+    --dark-blue:#012677;
+    --blue:#5c65c0;
+    --skyblue :#00b4fc;
+    --light-blue:#005bc5;
+    --dark-pink:#f64c57;
+    --dark-magenta:#e21b5a;
+    --light-green:#61e2c2;
+    --light-purple:#d9abff;
+}
+*{
+    box-sizing: border-box;
+    padding:0;
+    margin:0;
+    text-decoration: none;
+    font-family: poppins,sans-serif;
+}
+body{
+    background-color: #f6ab02;
+}
+.container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 100%;
+    width: 100%;
+    flex-wrap: wrap;
+    position: relative;
+}
+.profile-card{
+    background: #f6e9e1;
+    width:400px;
+    padding: 3rem;
+    border-style: solid;
+    border-color: black;
+    border-radius: 10px;
+    min-height: 400px;
+    position: relative;
+    color:#fff;
+    margin: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    left: 5%;
+}
+.profile-card .profile-pic{
+    margin-top: 15px;
+    overflow: hidden;
+}
+.profile-card .profile-pic img{
+    border-radius: 10px;
+    height: 19rem;
+    border-style: solid;
+    border-color:rgb(69, 68, 68);
+    border-width: medium;
+
+}
+.profile-card .profile-details{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    width:100%;
+}
+.profile-details .intro{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.profile-details .intro h2{
+    margin-top: 15px;
+    color: black;
+    margin-bottom: 2rem;
+    margin-left: 2rem;
+}
+.profile-details .intro h4{
+    background: var(--dark-pink);
+    font-weight: 600;
+    border-radius: 10px;
+    padding: 10px 30px;
+    width: 15rem;
+    margin: 8px;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 1.5px;
+    
+}
+.profile-details .intro .social{
+    margin-top: 10px;
+    margin-bottom: 25px;
+}
+.profile-details .intro .social i{
+    color:#ddd;
+    font-size: 16px;
+    background-color:#e7696f;
+    border-style: solid;
+    border-color: rgb(69, 68, 68);
+    border-width: 2.5px;
+    margin: 5px;
+    height: 40px;
+    width:40px;
+    line-height: 35px;
+    text-align: center;
+    border-radius: 5px;
+    transition: 0.5s;
+}
+.profile-details .intro .social i:hover{
+    transform: scale(1.2);
+    border:1px solid rgba(255,255,255,0.3);
+}
+.profile-details .contact-info{
+    background-color: #f2868d;
+    padding: 15px;
+    border-style: solid;
+    border-color: rgb(105, 104, 104);
+    border-radius: 10px;
+    width: 100%;
+}
+.profile-details .contact-info .row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid rgba(255,255,255,0.2);
+    padding: 10px 0;
+    margin-bottom: 10px;
+}
+
+    
+
+.contact-info .row .icon{
+    height: 40px;
+    width: 40px;
+    line-height: 40px;
+    border-radius: 5px;
+    background-color: #111;
+    text-align: center;
+    color:#fff;
+    transition: 0.5s;
+}
+.row .icon:hover{
+    transform:scale(1.2);
+    border:1px solid rgba(255,255,255,0.1);
+}
+.row .content{
+    min-width: 70%;
+}
+.row .content span{
+    font-size: 12px;
+}
+.download-btn{
+    background: linear-gradient(45deg, #f64c57,#e21b5a);
+    color:#fff;
+    padding: 1rem 3rem;
+    border-radius: 30px;
+    margin-top: 1.5rem;
+    border:none;
+}
+
+
+/*****about section ****/
+.about{
+    background-color: #f4ece4;
+    max-width: 700px;
+    padding: 2rem 3rem;
+    border-radius: 10px;
+    height: 43rem;
+    border-style: solid;
+    border-color: black;
+    border-radius: 10px;
+    margin-top: 1rem;
+}
+.about h1{
+    color:#000000;
+    margin-bottom: 1.1rem;
+    position: relative;
+    display: inline-block;
+    font-size: 3.5rem;
+}
+
+
+.about h2{
+    color:#000000;
+    font-size: 2rem;
+    margin-top: 4rem;
+    font-size: 2.5rem;
+}
+.about p{
+    color:#000000;
+    margin:0.5rem 3.5rem;
+    line-height: 20px;
+    font-size: 15px;
+    text-align: justify;
+    text-justify: inter-word;
+
+}
+.about .work{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+}
+.work .workbox{
+    display: flex;
+    justify-content: space-between;
+    border-radius:8px;
+    border:2px solid #333;
+    background-color: #f2868d;
+    padding: 0.5rem;
+    margin:1rem;
+
+}
+.work .workbox .desc{
+    width:75%;
+    color:#555;
+    
+
+}
+.work .workbox .desc h3{
+    color:#000000;
+    margin-bottom: 3px;
+}
+.work .workbox .desc p{
+    margin:0px;
+    text-align: center;
+}

@@ -61,7 +61,6 @@
 
 
 nav{
-    padding: 20px 0;
     display: flex;
     align-items: center;
     justify-content:center;
@@ -73,6 +72,7 @@ nav{
     width: 120%;
    right: 10%;
    gap: 1rem;
+   top: 1rem;
 }
 
 nav ul li {
@@ -109,7 +109,7 @@ nav ul li a:hover {
     height: 45rem;
     filter: drop-shadow(-20px 0 20px #000);
     position: absolute;
-    left: 30%;
+    left: 40%;
     top: 10%;
     transition: .5s ease;
     z-index: 2;
