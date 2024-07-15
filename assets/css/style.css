@@ -9,16 +9,16 @@
 
 @font-face {
     font-family: 'newspaper';
-    src: url('/assets/fonts/NewspaperPersonalUseSemiExpandedRegular-7B0GB.ttf');
+    src: url('../fonts/NewspaperPersonalUseSemiExpandedRegular-7B0GB.ttf');
 }
 @font-face {
     font-family: 'ananda';
-    src: url('/assets/fonts/AnandaBlackPersonalUseRegular-rg9Rx.ttf');
+    src: url('../fonts/AnandaBlackPersonalUseRegular-rg9Rx.ttf');
 }
 
 @font-face {
     font-family: 'bonello';
-    src: url('/assets/fonts/Bonello-Regular.otf');
+    src: url('../fonts/Bonello-Regular.otf');
 }
 
 @font-face {
@@ -29,22 +29,22 @@
 
 @font-face {
     font-family: 'subway-scribble';
-    src: url('/assets/fonts/SubwayScribble-e8Z3.ttf');
+    src: url('../fonts/SubwayScribble-e8Z3.ttf');
 }
 
 @font-face {
     font-family: 'scribble-lines';
-    src: url('/assets/fonts/ScribbleLines-evwe.ttf');
+    src: url('../fonts/ScribbleLines-evwe.ttf');
 }
 
 @font-face {
     font-family: 'frogie';
-    src: url('/assets/fonts/Frogie-Regular.ttf');
+    src: url('../fonts/Frogie-Regular.ttf');
 }
 
 @font-face {
     font-family: 'grestal';
-    src: url('/assets/fonts/GrestalScriptDemoRegular-dBYX.ttf');
+    src: url('../fonts/GrestalScriptDemoRegular-dBYX.ttf');
 }
 
 
