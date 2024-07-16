@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+@font-face {
+    font-family: 'newspaper';
+    src: url('../fonts/NewspaperPersonalUseSemiExpandedRegular-7B0GB.ttf');
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    background-image: linear-gradient(#5593d0,#95b1e3, #c1c6ec);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.hero {
+    width: 90.5rem;
+    padding: 10px 15px;
+    background-color: #ffacb1;
+    height: 4.4rem;
+    border-color: #000000;
+    border-style: solid;
+    border-width: 3px;
+    position: fixed;
+    top: 2rem;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    margin: 0 15px;
+    margin-top: 0.7rem;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #000000;
+    font-family: 'newspaper';
+    font-size: 18px;
+}
+
+nav ul li a:hover {
+    color: #f12c88;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+    width: 100%;
+    margin-top: 5rem; 
+}
+
+.about {
+    background-color: #f4ece4;
+    max-width: 700px;
+    padding: 2rem 3rem;
+    height: 50rem;
+    border-style: solid;
+    border-color: black;
+    border-radius: 10px;
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10rem;
+}
+
+.about h1 {
+    color: #000000;
+    margin-bottom: 1.5rem;
+    font-size: 3.5rem;
+    margin-top: 3rem;
+}
+
+.about h2 {
+    color: #000000;
+    font-size: 2rem;
+    margin-top: 4rem;
+}
+
+.about p {
+    color: #000000;
+    margin: 2rem 3.5rem;
+    line-height: 30px;
+    font-size: 15px;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
